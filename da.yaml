@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-  name: well-deployment
+  name: well-deployment-gopi
 spec:
   selector:
     matchLabels:
