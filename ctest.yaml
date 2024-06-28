@@ -13,7 +13,7 @@ metadata:
   name: nginx-pod
 spec:
   containers:
-  - name: nginx-container
+  - name: nginx-container-welltech
     image: nginx
     volumeMounts:
     - name: config-volume
