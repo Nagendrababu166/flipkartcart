@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: nginxgopi
-  template:
+  template: gopi
     metadata:
       labels:
         app: nginxgg
