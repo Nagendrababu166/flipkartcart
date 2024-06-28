@@ -26,3 +26,27 @@ spec:
       items:
       - key: dummy.txt
         path: dummy.txt
+
+  volumes:
+  - name: config-volume
+    configMap:
+      name: pv-file
+      items:
+      - key: dummy.txt
+        path: dummy.txt
+
+  volumes:
+  - name: config-volume
+    configMap:
+      name: pv-file
+      items:
+      - key: dummy.txt
+        path: dummy.txt
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pv-file-gg
+data:
+  dummy.txt: |
+    This is a dummy file.
+---
