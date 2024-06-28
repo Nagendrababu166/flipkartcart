@@ -8,7 +8,7 @@ data:
 ---
 
 apiVersion: v1
-kind: Pod
+kind: pradeepPod
 metadata:
   name: nginx-pod
 spec:
