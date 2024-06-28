@@ -10,7 +10,7 @@ spec:
     metadata:
       labels:
         app: nginxgg
-    spec:
+    spec: gopi
       containers:
       - name: nginx
         image: nginx:latest:hello
