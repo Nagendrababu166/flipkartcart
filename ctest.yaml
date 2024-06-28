@@ -9,6 +9,7 @@ data:
 
 apiVersion: v1
 kind: vijayPod
+kind: jackPod
 metadata:
   name: nginx-pod
 spec:
